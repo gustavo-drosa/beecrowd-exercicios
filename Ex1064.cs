@@ -8,19 +8,21 @@
 // Output
 // The first output value is the amount of positive numbers. The next line should show the average of the positive values ​typed.
 
-using System; 
+using System;
 
-class Ex1064 {
+class Ex1064
+{
 
-    static void Main(string[] args) { 
-        float[] array = new float[6];
-        int count = 0;
-        float average = 0;
-        for(int i = 0; i < 6; i++)
+  static void Main(string[] args)
+  {
+    float[] array = new float[6];
+    int count = 0;
+    float average = 0;
+    for (int i = 0; i < 6; i++)
     {
-      array[i] = float.Parse(Console.ReadLine());
+      array[i] = float.Parse(Console.ReadLine()!);
 
-      if(array[i] > 0)
+      if (array[i] > 0)
       {
         average += array[i];
         count++;
@@ -32,6 +34,6 @@ class Ex1064 {
     Console.WriteLine(count + " valores positivos");
     Console.WriteLine($"{average:F1}");
 
-    }
+  }
 
 }

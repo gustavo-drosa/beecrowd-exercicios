@@ -5,6 +5,6 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Ex1064</StartupObject>
+    <StartupObject>Ex1172</StartupObject>
   </PropertyGroup>
 </Project>

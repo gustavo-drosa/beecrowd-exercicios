@@ -12,17 +12,19 @@
 // Output
 // Present the message "A=" followed by the value of the variable, as in the example bellow, with four places after the decimal point. Use all double precision variables. Like all the problems, don't forget to print the end of line after the result, otherwise you will receive "Presentation Error".
 
-using System; 
-class Ex1002 {
-    static void Main(string[] args) { 
-      double pi = 3.14159;
+using System;
+class Ex1002
+{
+  static void Main(string[] args)
+  {
+    double pi = 3.14159;
 
-      double area = double.Parse(Console.ReadLine());
+    double area = double.Parse(Console.ReadLine()!);
 
-      double result = pi * (area * area);
-      
-      Console.WriteLine("A=" + result.ToString("F4"));
+    double result = pi * (area * area);
 
-    }
+    Console.WriteLine("A=" + result.ToString("F4"));
+
+  }
 
 }
